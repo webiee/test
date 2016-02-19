@@ -1,0 +1,477 @@
+.product_outer_div{
+    border:1px solid transparent;
+}
+@media only screen and (min-width : 1101px) {
+    #cart div.ui-btn.ui-input-btn.ui-btn-b.ui-corner-all.ui-shadow, #details div.ui-btn.ui-input-btn.ui-btn-c.ui-corner-all.ui-shadow {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 0.7em 0.5em;
+    }
+    .product_outer_div{
+        width:17.50%;
+        float:left;
+        background-color:#ffffff;
+        border-radius:0px;
+        overflow:hidden;
+        margin:0;
+    }
+    .product_inner_div{
+        width:100%;
+        background-color:#ffffff;
+        margin:20px;
+        border: 1px solid #cecece;
+    }
+    .product_img_container{
+        width:100%;
+        /*background-color:#cccccc;*/
+        background-color:white;
+        vertical-align:middle;
+        display:block;
+        height:150px;
+    }
+    .product_main_img{
+        max-height:150px;
+        padding:5px;
+        max-width: 90%;
+    }
+    .product_name_div{
+        max-width: 100%;
+        text-align: center;
+        padding: 5px 0px 0px 0px;
+        color:  #MOFLUID_APP_DEFAULT_TEXT;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1100px) {
+    #cart div.ui-btn.ui-input-btn.ui-btn-b.ui-corner-all.ui-shadow, #details div.ui-btn.ui-input-btn.ui-btn-c.ui-corner-all.ui-shadow {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0.7em 0.5em;
+    }
+    .product_outer_div{
+        width: 25%;
+        float: left;
+        background-color: #ffffff;
+        border: 1px solid transparent;
+        border-radius: 0px;
+        overflow: hidden;
+        margin: 0 0 10px 0px;
+        padding:0 2px;
+    }
+    .product_outer_div:nth-child(4n+1){
+        padding-left:0;
+    }
+    .product_outer_div:nth-child(4n+4){
+        padding-right:0;
+    }
+    .product_inner_div{
+        width:100%;
+        background-color:#ffffff;
+        margin:0% ;
+        border: 1px solid #cecece;
+    }
+    .product_img_container{
+        width:100%;
+        /*background-color:#cccccc;*/
+        background-color:white;
+        vertical-align:middle;
+        height:150px;
+    }
+    .product_main_img{
+        max-height:150px;
+        padding:5px;
+        max-width: 90%;
+    }
+    .product_name_div{
+        max-width: 100%;
+        text-align: center;
+        padding: 5px 0px 0px 0px;
+        color:  #MOFLUID_APP_DEFAULT_TEXT;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+    #cart div.ui-btn.ui-input-btn.ui-btn-b.ui-corner-all.ui-shadow, #details div.ui-btn.ui-input-btn.ui-btn-c.ui-corner-all.ui-shadow {
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Arial';
+        padding: 0.7em 0.5em;
+    }
+    .product_outer_div{
+        width: 33.33333%;
+        float: left;
+        background-color: #ffffff;
+        border-radius: 0px;
+        overflow: hidden;
+        margin: 0 0 10px 0;
+        padding:0px 2px;
+    }
+    .product_outer_div:nth-child(3n+1){
+        padding-left:0;
+    }
+    .product_outer_div:nth-child(3n+3){
+        padding-right:0;
+    }
+    .product_inner_div{
+        width:100%;
+        background-color:#ffffff;
+        margin:0px;
+        border: 1px solid #cecece;
+    }
+    .product_img_container{
+        width:100%;
+        /*background-color:#cccccc;*/
+        background-color:white;
+        vertical-align:middle;
+        height:180px;
+    }
+    .product_main_img{
+        max-height:180px;
+        padding:5px;
+        max-width: 80%;
+    }
+    .product_name_div{
+        max-width: 100%;
+        text-align: center;
+        padding: 5px 0px 0px 0px;
+        color:  #MOFLUID_APP_DEFAULT_TEXT;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width : 568px) and (max-width : 767px) {
+    
+    #cart div.ui-btn.ui-input-btn.ui-btn-b.ui-corner-all.ui-shadow, #details div.ui-btn.ui-input-btn.ui-btn-c.ui-corner-all.ui-shadow  {
+        font-size: 11px;
+        font-weight:500;
+        padding:.5em .4em;
+        font-family: 'Arial';
+    }
+    
+    .product_outer_div
+    {
+        width: 33.33333%;
+        float: left;
+        background-color: #ffffff;
+        border: 1px solid transparent;
+        border-radius: 0px;
+        overflow: hidden;
+        margin: 0px 0px 10px 0px;
+        padding:0px 2px;
+    }
+    .product_outer_div:nth-child(3n+1){
+        padding-left:0px;
+    }
+    .product_outer_div:nth-child(3n+3){
+        padding-right:0px;
+    }
+    .product_inner_div{
+        width:100%;
+        background-color:#ffffff;
+        margin:0%;
+        border: 1px solid #cecece;
+    }
+    
+    .product_img_container{
+        width:100%;
+        /*background-color:#cccccc;*/
+        background-color:white;
+        vertical-align:middle;
+        height:150px;
+    }
+    .product_main_img{
+        max-height:150px;
+        padding:5px;
+        max-width: 90%;
+    }
+    
+    .product_name_div{
+        max-width: 100%;
+        text-align: center;
+        padding: 5px 0px 0px 0px;
+        color:  #MOFLUID_APP_DEFAULT_TEXT;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-left: 5px;
+        
+    }
+    
+}
+
+@media only screen and (min-width : 481px) and (max-width : 567px) {
+    
+    #cart div.ui-btn.ui-input-btn.ui-btn-b.ui-corner-all.ui-shadow, #details div.ui-btn.ui-input-btn.ui-btn-c.ui-corner-all.ui-shadow  {
+        font-size: 10px;
+        font-weight:500;
+        padding:.5em .4em;
+        font-family: 'Arial';
+    }
+    
+    .product_outer_div {
+        width: 33.33333%;
+        float: left;
+        background-color: #ffffff;
+        border: 1px solid transparent;
+        border-radius: 0px;
+        overflow: hidden;
+        margin: 0px 0px 10px 0px;
+        padding:0px 2px;
+    }
+    
+    .product_outer_div:nth-child(3n+1){
+        padding-left:0;
+    }
+    .product_outer_div:nth-child(3n+3){
+        padding-right:0;
+    }
+    .product_inner_div{
+        width:100%;
+        background-color:#ffffff;
+        margin:0%;
+        border: 1px solid #cecece;
+    }
+    
+    .product_img_container{
+        width:100%;
+        /*background-color:#cccccc;*/
+        background-color:white;
+        vertical-align:middle;
+        height:150px;
+    }
+    .product_main_img{
+        max-height:150px;
+        padding:5px;
+        max-width: 90%;
+    }
+    
+    .product_name_div{
+        max-width: 100%;
+        text-align: center;
+        padding: 5px 0px 0px 0px;
+        color:  #MOFLUID_APP_DEFAULT_TEXT;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-left: 5px;
+        
+    }
+    
+}
+
+@media only screen and (min-width : 400px) and (max-width : 480px) {
+    
+    #cart div.ui-btn.ui-input-btn.ui-btn-b.ui-corner-all.ui-shadow, #details div.ui-btn.ui-input-btn.ui-btn-c.ui-corner-all.ui-shadow  {
+        font-size: 12px;
+        font-weight:500;
+        padding:.5em .4em;
+        font-family: 'Arial';
+    }
+    
+    .product_outer_div{
+        width:50%;
+        float:left;
+        background-color:#ffffff;
+        border-radius:0px;
+        overflow:hidden;
+        margin:0px 0px 10px 0px;
+        padding:0px 2px;
+    }
+    
+    .product_outer_div:nth-child(2n+1){
+        padding-left:0;
+    }
+    .product_outer_div:nth-child(2n+2){
+        padding-right:0;
+    }
+    
+    
+    .product_inner_div{
+        width:100%;
+        background-color:#ffffff;
+        margin:0%;
+        border: 1px solid #cecece;
+    }
+    
+    .product_img_container{
+        width:100%;
+        /*background-color:#cccccc;*/
+        background-color:white;
+        vertical-align:middle;
+        height:150px;
+    }
+    .product_main_img{
+        max-height:150px;
+        padding:5px;
+        max-width: 90%;
+    }
+    
+    .product_name_div{
+        max-width: 100%;
+        text-align: center;
+        padding: 5px 0px 0px 0px;
+        color:  #MOFLUID_APP_DEFAULT_TEXT;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-left: 5px;
+        
+    }
+    
+}
+
+@media only screen and (min-width : 320px) and (max-width : 399px) {
+    
+    #cart div.ui-btn.ui-input-btn.ui-btn-b.ui-corner-all.ui-shadow, #details div.ui-btn.ui-input-btn.ui-btn-c.ui-corner-all.ui-shadow  {
+        font-size: 13px;
+        font-weight:400;
+        padding:.5em .5em;
+    }
+    
+    .product_outer_div{
+        width:50%;
+        float:left;
+        background-color:#ffffff;
+        border-radius:0px;
+        overflow:hidden;
+        margin:0 0 10px 0px;
+        padding:0px 2px;
+    }
+    .product_outer_div:nth-child(2n+1){
+        padding-left:0;
+    }
+    .product_outer_div:nth-child(2n+2){
+        padding-right:0;
+    }
+    .product_inner_div{
+        width:100%;
+        background-color:#ffffff;
+        margin:3% 0%;
+        padding:0px 0px;
+        border: 1px solid #cecece;
+    }
+    
+    .product_img_container{
+        width:100%;
+        /*background-color:#cccccc;*/
+        background-color:white;
+        vertical-align:middle;
+        height:150px;
+        display: block;
+    }
+    .product_main_img{
+        max-height:150px;
+        padding:5px;
+        max-width: 100%;
+    }
+    
+    .product_name_div{
+        max-width: 100%;
+        text-align: center;
+        padding: 5px 0px 0px 0px;
+        color:  #MOFLUID_APP_DEFAULT_TEXT;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-left: 5px;
+        
+    }
+    
+    .detail_div{
+        width:90%;
+        float:none;
+    }
+    
+    .cart_div{
+        width:90%;
+        float:none;
+    }
+    
+}
+
+
+@media only screen and (max-width : 319px) {
+    
+    #cart div.ui-btn.ui-input-btn.ui-btn-b.ui-corner-all.ui-shadow, #details div.ui-btn.ui-input-btn.ui-btn-c.ui-corner-all.ui-shadow  {
+        font-size: 13px;
+        font-weight:400;
+        padding:.5em .4em;
+        font-family: 'Arial';
+    }
+    
+    .product_outer_div{
+        width:97.25%;
+        float:left;
+        background-color:#ffffff;
+        border-radius:0px;
+        overflow:hidden;
+        margin:1.1%;
+    }
+    .product_inner_div{
+        width:94%;
+        background-color:#ffffff;
+        margin:3%;
+        border: 1px solid #cecece;
+    }
+    
+    .product_img_container{
+        width:100%;
+        /*background-color:#cccccc;*/
+        background-color:white;
+        vertical-align:middle;
+    }
+    .product_main_img{
+        min-height:120px;
+        max-height:120px;
+        padding:5px;
+        max-width: 90%;
+    }
+    
+    .product_name_div{
+        max-width: 100%;
+        text-align: center;
+        padding: 5px 0px 0px 0px;
+        color:  #MOFLUID_APP_DEFAULT_TEXT;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-left: 5px;
+        
+    }
+    
+}

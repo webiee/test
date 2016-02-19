@@ -1,0 +1,1 @@
+var footerr='<!-- Footer included --><link rel="stylesheet" type="text/css" href="css/pushy.css" /><script type="text/javascript" src="js/sidecategory.js"></script><script type="text/javascript" src="js/side.index.js"></script><script type="text/javascript" src="js/side.db.js"></script><script type="text/javascript" src="js/pushy.min.js"></script>';document.write(footerr);
